@@ -1,6 +1,6 @@
 # DISA-STIG-implementations-remediations
 
-https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/1693893578626.jpeg?raw=true<img width="526" height="558" alt="image" src="https://github.com/user-attachments/assets/fdd4fe1e-ff9e-4ea4-899b-695453227f8b" />
+![image alt](
 
 DISA STIG stands for Defense Information Systems Agency Security Technical Implementation Guide. It is a set of technical guidelines that organizations can use to configure their information systems in a secure manner. STIGs are developed by the Defense Information Systems Agency (DISA), an agency of the United States Department of Defense.
 
