@@ -2,6 +2,7 @@
 
 https://media.licdn.com/dms/image/v2/D5612AQEOe7bQhEztnw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693893578626?e=1767225600&v=beta&t=TUKzj8VQB-2QsAQFa1wJMaSlEU7uYlvR2OraStNEcIc<img width="526" height="558" alt="image" src="https://github.com/user-attachments/assets/a8b56a05-6063-48bb-bc33-1d077d3e73b9" />
 
+![alt text](http:https://media.licdn.com/dms/image/v2/D5612AQEOe7bQhEztnw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693893578626?e=1767225600&v=beta&t=TUKzj8VQB-2QsAQFa1wJMaSlEU7uYlvR2OraStNEcIc<img width="526" height="558" alt="image" src="https://github.com/user-attachments/assets/a8b56a05-6063-48bb-bc33-1d077d3e73b9".png)
 
 DISA STIG stands for Defense Information Systems Agency Security Technical Implementation Guide. It is a set of technical guidelines that organizations can use to configure their information systems in a secure manner. STIGs are developed by the Defense Information Systems Agency (DISA), an agency of the United States Department of Defense.
 
