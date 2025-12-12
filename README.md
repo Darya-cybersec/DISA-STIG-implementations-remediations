@@ -29,7 +29,7 @@ This table briefly lists my top priority controls (based on severity, exploitabi
 
 ## Remediation Workflow
 
-* 1. Scan the system with Tenable Nessus STIG policy.
-* 1. Identify failed STIG items.
+-* Scan the system with Tenable Nessus STIG policy.
+-* Identify failed STIG items.
 * 1. Remediate using PowerShell scripts or manual steps.
 * 1. Verify success by rescanning.
