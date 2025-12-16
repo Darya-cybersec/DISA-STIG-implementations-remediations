@@ -41,7 +41,7 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 
 An internal audit has revealed that various Windows 10 machines have numerous failures in regards to Windows Compliance Checks. I have been tasked to remediate these vulnerabilities using automation and confirm that the STIG has been successfully implemented.
 
-###  Remediation Workflow
+##  Remediation Workflow
 
 - Scan the virtual machine with a Windows 10 STIG Audit Policy using Tenable.
 - View scan results in Audits tab and discover the STIG-ID associated with the failure.
@@ -49,9 +49,5 @@ An internal audit has revealed that various Windows 10 machines have numerous fa
 - Implement the fix using PowerShell.
 - Rescan to confirm the implementation success.
 
----
-
-
----
 
 
