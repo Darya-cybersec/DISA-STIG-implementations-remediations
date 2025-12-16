@@ -14,9 +14,19 @@
 
 An internal audit has revealed that various Windows 11 machines have numerous failures in regards to Windows Compliance Checks. I have been tasked to remediate these vulnerabilities using automation and confirm that the STIG has been successfully implemented.
 
+
+##  Remediation Workflow
+
+- Scan the virtual machine with a Windows 10 STIG Audit Policy using Tenable.
+- View scan results in Audits tab and discover the STIG-ID associated with the failure.
+- Research remediation for the STIG-ID.
+- Implement the fix using PowerShell.
+- Rescan to confirm the implementation success.
+
+
 **Windows 10 STIG Remediation Scripts:**
 
-[WN11-AU-000050](https://github.com/behan101/DISA-STIGs/blob/main/WN11-AU-000050_Remediation_Script.ps1)
+[WN11-AU-000050](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-AU-000500%20.ps1)
 
 [WN11-CC-000005](https://github.com/behan101/DISA-STIGs/blob/main/WN11-CC-000005_Remediation_Script.ps1)
 
@@ -37,17 +47,6 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 [WN11-CC-000285](https://github.com/behan101/DISA-STIGs/blob/main/WN11-CC-000285_Remediation_Script.ps1)
 
 
-##  Scenario
-
-An internal audit has revealed that various Windows 10 machines have numerous failures in regards to Windows Compliance Checks. I have been tasked to remediate these vulnerabilities using automation and confirm that the STIG has been successfully implemented.
-
-##  Remediation Workflow
-
-- Scan the virtual machine with a Windows 10 STIG Audit Policy using Tenable.
-- View scan results in Audits tab and discover the STIG-ID associated with the failure.
-- Research remediation for the STIG-ID.
-- Implement the fix using PowerShell.
-- Rescan to confirm the implementation success.
 
 
 
