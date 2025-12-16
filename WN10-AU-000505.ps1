@@ -25,12 +25,20 @@
     PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
 #>
 
-# Create the policy key (if it doesn’t exist)
-$RegPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application"
+# Create the Registry Path 
+
+$RegPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Security"
 New-Item -Path $RegPath -Force | Out-Null
 
-# Set it to exactly 32768 (32 MB)
-New-ItemProperty -Path $RegPath -Name "MaxSize" -PropertyType DWord -Value 32768 -Force | Out-Null
+# Set the Required Registry Value (1,024,000 KB)
 
-# Verify the setting
-Get-ItemProperty -Path $RegPath -Name "MaxSize" | Select-Object MaxSize
+New-ItemProperty `
+  -Path $RegPath `
+  -Name "MaxSize" `
+  -PropertyType DWord `
+  -Value 1024000 `
+  -Force | Out-Null
+
+# Verify the Configuration
+
+Get-ItemProperty -Path $RegPath -Name "MaxSize"
