@@ -32,7 +32,7 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 
 [WN11-CC-000038](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000038.ps1)  WDigest Authentication must be disabled.
 
-[WN11-CC-000039](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000039.ps1)
+[WN11-CC-000039](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000039.ps1)  Run as different user must be removed from context menus.
 
 [WN11-EP-000310](https://github.com/behan101/DISA-STIGs/blob/main/WN11-EP-000310_Remediation_Script.ps1)
 
