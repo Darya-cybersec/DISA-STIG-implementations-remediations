@@ -1,9 +1,9 @@
 # DISA-STIG-implementations-remediations
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2cbeecb7-c2ef-4ada-afc3-f81c5bb5bcec" />
 
-**DISA STIG** stands for Defense Information Systems Agency Security Technical Implementation Guide. It is a set of technical guidelines that organizations can use to configure their information systems in a secure manner. STIGs are developed by the Defense Information Systems Agency (DISA), an agency of the United States Department of Defense.
+## DISA STIG ## stands for Defense Information Systems Agency Security Technical Implementation Guide. It is a set of technical guidelines that organizations can use to configure their information systems in a secure manner. STIGs are developed by the Defense Information Systems Agency (DISA), an agency of the United States Department of Defense.
 
-**The benefits of implementing DISA STIGs include:**
+## The benefits of implementing DISA STIGs include:##
 
 * Increased security: STIGs help to reduce the risk of unauthorized access, modification, or destruction of sensitive information. This is done by providing specific instructions on how to configure information systems to mitigate known security risks.
 * Compliance: Many organizations are required to comply with specific security standards, such as the Federal Information Security Management Act (FISMA). STIGs can help organizations to demonstrate compliance with these standards by providing a comprehensive set of security controls.
