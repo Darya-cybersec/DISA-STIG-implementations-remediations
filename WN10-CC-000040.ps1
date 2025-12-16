@@ -25,3 +25,33 @@
     Example syntax:
     PS C:\> .\__remediation_template(STIG-ID-WN10-CC-000040).ps1 
 #>
+# STEP 1: Confirm the script is running as Administrator (required to write to HKLM)
+if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()
+    ).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    Write-Error "Please run PowerShell as Administrator."
+    exit 1
+}
+
+# STEP 2: Define the registry path for the LanmanWorkstation policy key
+$RegPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation"
+
+# STEP 3: Create the registry key if it does not already exist
+# -Force prevents errors if the key already exists
+New-Item -Path $RegPath -Force | Out-Null
+
+# STEP 4: Set the required policy value to disable insecure guest logons
+# AllowInsecureGuestAuth = 0 disables insecure guest authentication
+New-ItemProperty `
+    -Path $RegPath `
+    -Name "AllowInsecureGuestAuth" `
+    -PropertyType DWord `
+    -Value 0 `
+    -Force | Out-Null
+
+# STEP 5: Verify the setting was applied (should output AllowInsecureGuestAuth : 0)
+Get-ItemProperty -Path $RegPath -Name "AllowInsecureGuestAuth"
+
+# STEP 6: Refresh Group Policy to apply immediately (recommended)
+gpupdate /force | Out-Null
+Write-Host "Applied AllowInsecureGuestAuth = 0. If a scanner still flags it, reboot the system."
+
