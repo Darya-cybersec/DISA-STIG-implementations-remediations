@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script disables WDigest authentication to prevent plaintext credentials from being stored in LSASS, mitigating the risk of credential theft and ensuring compliance with DISA STIG WN10-CC-000038.
+    This PowerShell script removes the “Run as different user” option from context menus for common executable file types to prevent the use of alternate or privileged credentials in standard user sessions, reducing the risk of credential exposure and ensuring compliance with DISA STIG WN10-CC-000039.
 
 .NOTES
     Author          : Darya Murha
