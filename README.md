@@ -28,7 +28,7 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 
 [WN11-AU-000050](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-AU-000500%20.ps1)  The Application event log size must be configured to 32768 KB or greater.
 
-[WN11-CC-000005](https://github.com/behan101/DISA-STIGs/blob/main/WN11-CC-000005_Remediation_Script.ps1)
+[WN11-CC-000005](https://github.com/behan101/DISA-STIGs/blob/main/WN11-CC-000005_Remediation_Script.ps1)  The Security event log size must be configured to 1024000 KB or greater.
 
 [WN11-CC-000090](https://github.com/behan101/DISA-STIGs/blob/main/WN11-CC-000090_Remediation_Script.ps1)
 
