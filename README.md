@@ -26,7 +26,7 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 
 **Windows 10 STIG Remediation Scripts:**
 
-[WN10-AU-000050](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-AU-000500%20.ps1)  The Application event log size must be configured to 32768 KB or greater.
+[WN10-AU-000050](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-AU-000500.ps1)  The Application event log size must be configured to 32768 KB or greater.
 
 [WN10-AU-000005](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-AU-000505.ps1)  The Security event log size must be configured to 1024000 KB or greater.
 
