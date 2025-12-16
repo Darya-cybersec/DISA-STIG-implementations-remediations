@@ -1,7 +1,7 @@
 
 <#
 .SYNOPSIS
-    
+    This PowerShell script enables logging of command-line arguments for process creation events to enhance auditing and forensic visibility, improving the ability to detect, analyze, and investigate malicious activity in compliance with DISA STIG WN10-CC-000066.
     
 .NOTES
     Author          : Darya Murha
