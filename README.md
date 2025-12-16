@@ -30,9 +30,9 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 
 [WN11-CC-000005](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-AU-000505.ps1)  The Security event log size must be configured to 1024000 KB or greater.
 
-[WN11-CC-000090](https://github.com/behan101/DISA-STIGs/blob/main/WN11-CC-000090_Remediation_Script.ps1)
+[WN11-CC-000038](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000038.ps1)  WDigest Authentication must be disabled.
 
-[WN11-CC-000315](https://github.com/behan101/DISA-STIGs/blob/main/WN11-CC-000315_Remediation_Script.ps1)
+[WN11-CC-000039](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000039.ps1)
 
 [WN11-EP-000310](https://github.com/behan101/DISA-STIGs/blob/main/WN11-EP-000310_Remediation_Script.ps1)
 
