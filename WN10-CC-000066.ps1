@@ -25,6 +25,8 @@
     Example syntax:
     PS C:\> .\__remediation_template(STIG-ID-WN10-CC-000066).ps1 
 
+    #>
+
   # STEP 1: Confirm the script is running as Administrator (required to write to HKLM)
 if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()
     ).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
