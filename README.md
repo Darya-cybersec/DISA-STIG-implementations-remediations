@@ -38,8 +38,7 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 
 
 
-
-[WN11-CC-000197](https://github.com/behan101/DISA-STIGs/blob/main/WN11-CC-000197_Remediation_Script.ps1)
+[WN10-CC-000066](https://github.com/behan101/DISA-STIGs/blob/main/WN11-CC-000197_Remediation_Script.ps1)  Command line data must be included in process creation events.
 
 [WN11-SO-000220](https://github.com/behan101/DISA-STIGs/blob/main/WN11-SO-000220_Remediation_Script.ps1)
 
