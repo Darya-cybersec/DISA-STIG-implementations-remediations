@@ -36,9 +36,7 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 
 [WN10-CC-000040](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000040.ps1)  Insecure logons to an SMB server must be disabled.
 
-
-
-[WN10-CC-000066](https://github.com/behan101/DISA-STIGs/blob/main/WN11-CC-000197_Remediation_Script.ps1)  Command line data must be included in process creation events.
+[WN10-CC-000066](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000066.ps1)  Command line data must be included in process creation events.
 
 [WN11-SO-000220](https://github.com/behan101/DISA-STIGs/blob/main/WN11-SO-000220_Remediation_Script.ps1)
 
