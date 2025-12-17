@@ -53,7 +53,7 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 
 [WN10-CC-000180](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000180.ps1)  Autoplay must be turned off for non-volume devices.
 
-[WN11-SO-000230](https://github.com/behan101/DISA-STIGs/blob/main/WN11-SO-000230_Remediation_Script.ps1)
+[WN10-CC-000197](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000197.ps1)  Microsoft consumer experiences must be turned off.
 
 [WN11-UR-000070](https://github.com/behan101/DISA-STIGs/blob/main/WN11-UR-000070_Remediation_Script.ps1)
 
