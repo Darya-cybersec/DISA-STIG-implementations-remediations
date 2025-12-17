@@ -1,0 +1,32 @@
+# STEP 1: Confirm PowerShell is running as Administrator
+if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()
+).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    Write-Error "Please run PowerShell as Administrator."
+    exit 1
+}
+
+# STEP 2: Define the service name (internal service name for Secondary Logon)
+$ServiceName = "seclogon"
+
+# STEP 3: Get the current service status (for visibility)
+$svc = Get-Service -Name $ServiceName -ErrorAction Stop
+Write-Host "Current Status: $($svc.Status)"
+
+# STEP 4: If the service is running, stop it
+if ($svc.Status -eq "Running") {
+    Stop-Service -Name $ServiceName -Force
+    Write-Host "Service stopped."
+}
+
+# STEP 5: Disable the service startup type
+Set-Service -Name $ServiceName -StartupType Disabled
+Write-Host "StartupType set to Disabled."
+
+# STEP 6: Verify the service is Disabled and not running
+$svc = Get-Service -Name $ServiceName
+$startMode = (Get-CimInstance -ClassName Win32_Service -Filter "Name='$ServiceName'").StartMode
+
+Write-Host "Verification:"
+Write-Host "  Status    : $($svc.Status)"
+Write-Host "  StartMode : $startMode"
+
