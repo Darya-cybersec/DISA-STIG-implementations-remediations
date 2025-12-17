@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script disables AutoPlay for non-volume devices to prevent automatic execution of potentially malicious content when removable media is connected, ensuring compliance with DISA STIG WN10-CC-000180.
+    This PowerShell script disables the Secondary Logon service to prevent the use of alternate credentials in standard user sessions, reducing the risk of credential exposure and ensuring compliance with DISA STIG WN10-00-000175.
     
 .NOTES
     Author          : Darya Murha
