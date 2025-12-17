@@ -1,7 +1,7 @@
 
 <#
 .SYNOPSIS
-    This PowerShell script disables AutoPlay for non-volume devices to prevent automatic execution of potentially malicious content when removable media is connected, ensuring compliance with DISA STIG WN10-CC-000180.
+    This PowerShell script disables Microsoft Consumer Experiences to prevent the automatic installation of suggested apps and notifications, helping organizations maintain controlled application execution in compliance with DISA STIG WN10-CC-000197.
     
 .NOTES
     Author          : Darya Murha
