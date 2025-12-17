@@ -48,7 +48,7 @@ New-ItemProperty `
 Get-ItemProperty -Path $RegPath -Name "UseLogonCredential"
 
 
-# STEP 5: Inform the administrator that a reboot is required
+# STEP 5: Reboot is required
 Write-Host "WDigest configuration applied successfully."
 Write-Host "A system reboot is required for the change to take full effect."
 
