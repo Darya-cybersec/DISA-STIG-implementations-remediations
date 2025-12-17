@@ -55,7 +55,7 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 
 [WN10-CC-000197](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000197.ps1)    Microsoft consumer experiences must be turned off.
 
-[WN11-UR-000070](https://github.com/behan101/DISA-STIGs/blob/main/WN11-UR-000070_Remediation_Script.ps1)
+[WN10-00-000175](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-00-000175.ps1)    The Secondary Logon service must be disabled on Windows 10.
 
 [WN11-CC-000285](https://github.com/behan101/DISA-STIGs/blob/main/WN11-CC-000285_Remediation_Script.ps1)
 
