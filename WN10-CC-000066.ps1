@@ -53,7 +53,7 @@ New-ItemProperty `
 # STEP 5: Verify the setting was applied (should output ProcessCreationIncludeCmdLine_Enabled : 1)
 Get-ItemProperty -Path $RegPath -Name "ProcessCreationIncludeCmdLine_Enabled"
 
-# STEP 6: Refresh Group Policy to apply immediately (recommended)
+# STEP 6: Refresh Group Policy to apply immediately 
 gpupdate /force | Out-Null
 Write-Host "Applied ProcessCreationIncludeCmdLine_Enabled = 1. If a scanner still flags it, reboot the system."
 
