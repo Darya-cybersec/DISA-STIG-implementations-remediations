@@ -2,7 +2,7 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2cbeecb7-c2ef-4ada-afc3-f81c5bb5bcec" />
 
 
-This project demonstrates the process of performing a DISA STIG compliance assessment on a Windows 10 virtual machine using Tenable Nessus. An initial STIG scan was conducted to identify failed security controls. Based on the scan results, PowerShell was used to remediate the failed STIG findings by applying secure configuration changes to the system. 
+This project demonstrates the process of performing a **DISA STIG** compliance assessment on a Windows 10 virtual machine using Tenable Nessus. An initial STIG scan was conducted to identify failed security controls. Based on the scan results, PowerShell was used to remediate the failed STIG findings by applying secure configuration changes to the system. 
 
 This project highlights hands-on experience with vulnerability scanning, STIG compliance, and Windows security hardening.
 
