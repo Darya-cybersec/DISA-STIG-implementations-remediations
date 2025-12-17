@@ -5,6 +5,8 @@ This project demonstrates the process of performing a DISA STIG compliance asses
 
 This project highlights hands-on experience with vulnerability scanning, STIG compliance, and Windows security hardening.
 
+---
+
 ## DISA STIG stands for Defense Information Systems Agency Security Technical Implementation Guide. It is a set of technical guidelines that organizations can use to configure their information systems in a secure manner. STIGs are developed by the Defense Information Systems Agency (DISA), an agency of the United States Department of Defense.
 
 ## The benefits of implementing DISA STIGs include:
