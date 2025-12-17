@@ -39,21 +39,21 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 
 ## Windows 10 STIG Remediation Scripts:
 
-[WN10-AU-000050](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-AU-000500.ps1)  The Application event log size must be configured to 32768 KB or greater.
+[WN10-AU-000050](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-AU-000500.ps1)    The Application event log size must be configured to 32768 KB or greater.
 
-[WN10-AU-000005](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-AU-000505.ps1)  The Security event log size must be configured to 1024000 KB or greater.
+[WN10-AU-000005](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-AU-000505.ps1)    The Security event log size must be configured to 1024000 KB or greater.
 
-[WN10-CC-000038](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000038.ps1)  WDigest Authentication must be disabled.
+[WN10-CC-000038](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000038.ps1)    WDigest Authentication must be disabled.
 
-[WN10-CC-000039](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000039.ps1)  Run as different user must be removed from context menus.
+[WN10-CC-000039](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000039.ps1)    Run as different user must be removed from context menus.
 
-[WN10-CC-000040](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000040.ps1)  Insecure logons to an SMB server must be disabled.
+[WN10-CC-000040](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000040.ps1)    Insecure logons to an SMB server must be disabled.
 
-[WN10-CC-000066](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000066.ps1)  Command line data must be included in process creation events.
+[WN10-CC-000066](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000066.ps1)    Command line data must be included in process creation events.
 
-[WN10-CC-000180](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000180.ps1)  Autoplay must be turned off for non-volume devices.
+[WN10-CC-000180](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000180.ps1)    Autoplay must be turned off for non-volume devices.
 
-[WN10-CC-000197](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000197.ps1)  Microsoft consumer experiences must be turned off.
+[WN10-CC-000197](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-CC-000197.ps1)    Microsoft consumer experiences must be turned off.
 
 [WN11-UR-000070](https://github.com/behan101/DISA-STIGs/blob/main/WN11-UR-000070_Remediation_Script.ps1)
 
