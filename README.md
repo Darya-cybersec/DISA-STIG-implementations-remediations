@@ -8,7 +8,7 @@ This project highlights hands-on experience with vulnerability scanning, STIG co
 
 ---
 
- **DISA STIG** stands for Defense Information Systems Agency Security Technical Implementation Guide. It is a set of technical guidelines that organizations can use to configure their information systems in a secure manner. STIGs are developed by the Defense Information Systems Agency (DISA), an agency of the United States Department of Defense.
+**DISA STIG** stands for Defense Information Systems Agency Security Technical Implementation Guide. It is a set of technical guidelines that organizations can use to configure their information systems in a secure manner. STIGs are developed by the Defense Information Systems Agency (DISA), an agency of the United States Department of Defense.
 
 ---
 
@@ -19,10 +19,13 @@ This project highlights hands-on experience with vulnerability scanning, STIG co
 * Reduced risk of liability: By implementing STIGs, organizations can reduce their risk of being held liable for data breaches or other security incidents. This is because STIGs can help to show that the organization took reasonable steps to protect its information systems.
 * Improved efficiency: STIGs can help organizations to improve their efficiency by providing a standardized approach to security configuration. This can help to reduce the time and resources required to manage security.
 
+---
+
 ##  Scenario
 
 An internal audit has revealed that various Windows 11 machines have numerous failures in regards to Windows Compliance Checks. I have been tasked to remediate these vulnerabilities using automation and confirm that the STIG has been successfully implemented.
 
+---
 
 ##  Remediation Workflow
 
