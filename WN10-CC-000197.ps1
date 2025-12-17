@@ -26,3 +26,44 @@
     PS C:\> .\__remediation_template(STIG-ID-WN10-CC-000180).ps1 
 
     #>
+
+    # STEP 1: Confirm the script is running as Administrator (required to write to HKLM)
+if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()
+    ).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    Write-Error "Please run PowerShell as Administrator."
+    exit 1
+}
+
+# STEP 2: Define the registry path for the CloudContent policy key
+$RegPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CloudContent"
+
+# STEP 3: Create the registry key if it does not already exist
+# -Force prevents errors if the key already exists
+New-Item -Path $RegPath -Force | Out-Null
+
+# STEP 4: Define the policy value name and required value data (1 = Enabled)
+# IMPORTANT: Replace this with the exact value name from your STIG finding if different
+$ValueName = "DisableConsumerAccountStateContent"
+$ValueData = 1
+
+# STEP 5: Create or update the DWORD value to the required setting
+New-ItemProperty `
+    -Path $RegPath `
+    -Name $ValueName `
+    -PropertyType DWord `
+    -Value $ValueData `
+    -Force | Out-Null
+
+# STEP 6: Verify the setting was applied (should output the value as 1)
+Get-ItemProperty -Path $RegPath -Name $ValueName
+
+# STEP 7: Refresh Group Policy to apply immediately
+gpupdate /force | Out-Null
+Write-Host "Applied $ValueName = $ValueData. If a scanner still flags it, reboot the system."
+
+
+
+
+
+
+
