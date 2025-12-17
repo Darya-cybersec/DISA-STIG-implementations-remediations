@@ -35,12 +35,10 @@
    exit 1 } 
    
    # STEP 2: Set registry path 
-   
    $RegPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CloudContent" 
    
-   # STEP 3: Create key if missing New
-   
-   -Item -Path $RegPath -Force | Out-Null 
+   # STEP 3: Create key if missing 
+   New-Item -Path $RegPath -Force | Out-Null 
    
    # STEP 4: Set the exact DWORD Tenable checks
    New-ItemProperty 
@@ -55,4 +53,5 @@
    "DisableWindowsConsumerFeatures" | Select-Object 
    DisableWindowsConsumerFeatures 
    
-   # STEP 6: Refresh policy gpupdate /force | Out-Null Write-Host "Done. Reboot if Tenable still reports failed, then rescan."
+   # STEP 6: Refresh policy 
+   gpupdate /force | Out-Null Write-Host "Done. Reboot if Tenable still reports failed, then rescan."
