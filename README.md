@@ -35,8 +35,9 @@ An internal audit has revealed that various Windows 11 machines have numerous fa
 - Implement the fix using PowerShell.
 - Rescan to confirm the implementation success.
 
+---
 
-**Windows 10 STIG Remediation Scripts:**
+## Windows 10 STIG Remediation Scripts:
 
 [WN10-AU-000050](https://github.com/Darya-cybersec/DISA-STIG-implementations-remediations/blob/main/WN10-AU-000500.ps1)  The Application event log size must be configured to 32768 KB or greater.
 
