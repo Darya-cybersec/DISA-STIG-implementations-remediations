@@ -51,7 +51,7 @@ New-ItemProperty `
 # STEP 5: Verify the setting was applied (should output AllowInsecureGuestAuth : 0)
 Get-ItemProperty -Path $RegPath -Name "AllowInsecureGuestAuth"
 
-# STEP 6: Refresh Group Policy to apply immediately (recommended)
+# STEP 6: Refresh Group Policy to apply immediately 
 gpupdate /force | Out-Null
 Write-Host "Applied AllowInsecureGuestAuth = 0. If a scanner still flags it, reboot the system."
 
