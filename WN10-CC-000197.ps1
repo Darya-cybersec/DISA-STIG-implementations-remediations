@@ -34,9 +34,13 @@
    Write-Error "Please run PowerShell as Administrator." 
    exit 1 } 
    
-   # STEP 2: Set registry path $RegPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CloudContent" 
+   # STEP 2: Set registry path 
    
-   # STEP 3: Create key if missing New-Item -Path $RegPath -Force | Out-Null 
+   $RegPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CloudContent" 
+   
+   # STEP 3: Create key if missing New
+   
+   -Item -Path $RegPath -Force | Out-Null 
    
    # STEP 4: Set the exact DWORD Tenable checks
    New-ItemProperty 
