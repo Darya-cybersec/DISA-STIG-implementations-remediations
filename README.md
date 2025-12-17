@@ -1,3 +1,9 @@
+
+Windows 10 STIG Remediation Repository
+
+Welcome to my Windows 10 STIG v3r2 remediation project! This repository documents how I systematically remediated STIG findings from an initial Tenable Nessus STIG scan on a Windows 10 Azure VM.
+
+
 # DISA-STIG-implementations-remediations
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2cbeecb7-c2ef-4ada-afc3-f81c5bb5bcec" />
 
